@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requirments
+## Requirements
 
 - Two date inputs that have a calendar dropdown. One for a start date, one for an end date.
 - An “add” button that appends the date range to a list on the screen.
