@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# TUP Challenege created with with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Requirments
+
+- Two date inputs that have a calendar dropdown. One for a start date, one for an end date.
+- An “add” button that appends the date range to a list on the screen.
+- A “clear” button that resets the input.
+- Ranges can be deleted from the list.
+- Make it pretty/styled.
+- Deploy it to an S3 bucket on AWS 
+- Host the code in a git repo somewhere so we can review.
+
+## S3 Bucket URL
+[TUP Challenge AWS S3 Bucket](https://tupchallenge.s3.us-east-2.amazonaws.com/index.html)
 
 ## Available Scripts
 
