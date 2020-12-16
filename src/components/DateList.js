@@ -25,8 +25,8 @@ const DateList = ({dateList, handleRemoveItem}) => {
             {dateList.map((item, key) => {
                 return (
                     <ListItem key={key} divider>
-                        <ListItemText primary={moment(item.start).format('M/D/YYYY')} secondary="Start" component="span"/>
-                        <ListItemText primary={moment(item.end).format('M/D/YYYY')} secondary="End" component="span"/>
+                        <ListItemText primary={moment(item.start).format('MM/DD/YYYY')} secondary="Start" component="span"/>
+                        <ListItemText primary={moment(item.end).format('MM/DD/YYYY')} secondary="End" component="span"/>
                         <IconButton  name={item.id} component="span" onClick={() => handleRemoveItem(key)} color="primary">
                             <HighlightOffIcon />
                         </IconButton>
